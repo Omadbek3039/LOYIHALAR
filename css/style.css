@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1185px;
+    margin: auto;
+}
+
+header {
+    height: 322px;
+    background: #445162;
+}
+
+header .block_hd {
+    display: flex;
+    justify-content: space-between;
+    height: 322px;
+    align-items: center;
+}
+
+header .block_hd .block_hd-1 h1 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: auto;
+    font-weight: 500;
+    padding-bottom: 44px;
+}
+
+header .block_hd .block_hd-1 p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    padding-left: 36.5px;
+    position: relative;
+}
+
+header .block_hd .block_hd-1 p:before {
+    content: "\f00c";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+}
+
+header .block_hd .block_hd-2 {
+    max-width: 468px;
+    width: 100%;
+    height: 213px;
+    background: #ffffff;
+}
+
+main .block_mn {
+    display: flex;
+    justify-content: space-between;
+    height: 342px;
+    align-items: center;
+}
+
+main .block_mn .block_mn-1 {
+    max-width: 652px;
+    width: 100%;
+}
+
+main .block_mn .block_mn-1 h3 {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+
+main .block_mn .block_mn-1 p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 17px;
+}
+
+main .block_mn .block_mn-2 {
+    max-width: 428px;
+    width: 100%;
+    height: 242px;
+    background: #445161;
+}
+
+section .benefits {
+    height: 415px;
+    background: #f5f5f5;
+    align-items: center;
+    width: 100%;
+}
+
+section .benefits h3 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    font-weight: 500;
+    padding-top: 48px;
+    text-align: center;
+    padding-bottom: 26px;
+}
+
+section .benefits .block_st {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .benefits .block_st .block_st-1 {
+    max-width: 567px;
+    width: 100%;
+}
+
+section .benefits .block_st .block_st-1 p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 27px;
+    padding-left: 40px;
+    position: relative;
+}
+
+section .benefits .block_st .block_st-1 p:before {
+    content: "\f067";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    width: 31.5px;
+    height: 28px;
+    text-align: center;
+    padding-top: 3.5px;
+    color: #ffffff;
+    background: #445161;
+    margin-top: 6px;
+}
+
+section .scrinshots {
+    height: 485px;
+    width: 100%;
+}
+
+section .scrinshots h3 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section .scrinshots .block_st_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    max-width: 1185px;
+}
+
+section .scrinshots .block_st_2 .block_st_2-1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 574px;
+}
+
+section .scrinshots .block_st_2 .block_st_2-1 .box-1 {
+    height: 148px;
+    width: 198px;
+    background: #445161;
+    margin-right: 15px;
+}
+
+section .scrinshots .block_st_2 .block_st_2-1 .box-2 h4 {
+    color: #445161;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+section .scrinshots .block_st_2 .block_st_2-1 .box-2 p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    max-width: 360px;
+    width: 100%;
+}
+
+footer {
+    height: 472px;
+    background: #f5f5f5;
+}
+
+footer h3 {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+
+footer .block_ft {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+footer .block_ft .box {
+    max-width: 576px;
+    display: flex;
+    justify-content: space-between;
+    height: 127px;
+    position: relative;
+}
+
+footer .block_ft .box .box-1 {
+    width: 77px;
+    height: 77px;
+    background: #445161;
+    border-radius: 50%;
+}
+
+footer .block_ft .box .box-2 {
+    background: url(../pictures/bg\ review.png) no-repeat;
+    background-size: cover;
+    margin-left: 14.5px;
+}
+
+footer .block_ft .box .box-2 p {
+    font-size: 14px;
+    color: #333333;
+    font-style: italic;
+    line-height: 18px;
+    max-width: 435px;
+    padding: 13px 16px 13px 25px;
+}
+
+footer .block_ft .box .box-2 span {
+    font-size: 14px;
+    max-width: 78px;
+    width: 100%;
+    color: #989898;
+    font-style: normal;
+    padding-left: 25px;
+}
